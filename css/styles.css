@@ -114,8 +114,8 @@ img {
   margin-left: auto;
 }
 
-.header-item:not(:last-child) {
-  margin-right: 50px;
+.header-item:not(:first-child) {
+  margin-left: 50px;
 }
 
 .header-link {
@@ -124,6 +124,7 @@ img {
   padding-bottom: 32px;
   color: var(--header-color);
 }
+
 .header-contact-item {
   display: block;
   padding-top: 32px;
@@ -131,8 +132,8 @@ img {
   color: var(--basic-text-color);
 }
 
-.header-mail {
-  margin-right: 50px;
+.header-tel {
+  margin-left: 50px;
 }
 
 /*-- Section 1 - HERO -- */
@@ -141,6 +142,7 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -150,6 +152,7 @@ img {
   color: var(--second-title-color);
   margin-bottom: var(--typical-gap);
 }
+
 .hero-btn {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -167,6 +170,7 @@ img {
   padding-top: var(--typical-padding);
   padding-bottom: var(--typical-padding);
 }
+
 .benefits-title {
   font-size: 14px;
   line-height: 1.14;
@@ -174,6 +178,7 @@ img {
   text-transform: uppercase;
   color: var(--first-title-color);
 }
+
 .benefits-list {
   display: flex;
   margin-left: calc(-1 * var(--typical-gap));
@@ -183,6 +188,7 @@ img {
   flex-basis: calc(100% / 4 - var(--typical-gap));
   margin-left: var(--typical-gap);
 }
+
 .benefits-item-content {
   font-size: 14px;
   line-height: 1.71;
@@ -197,9 +203,9 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-title-color);
-
   margin-bottom: 50px;
 }
+
 /*-- Section 3 - Work --*/
 .work {
   padding-top: 0px;
@@ -231,8 +237,6 @@ img {
 .team-description {
   padding-top: var(--typical-gap);
   padding-bottom: var(--typical-gap);
-  padding-left: 0px;
-  padding-right: 0px;
 }
 
 .team-item {
@@ -253,6 +257,7 @@ img {
   color: var(--first-title-color);
   margin-bottom: 10px;
 }
+
 .team-item-profession {
   font-size: 16px;
   line-height: 1.19;
@@ -327,6 +332,10 @@ img {
   margin-bottom: 50px;
 }
 
+.pf-type-item:not(:first-child) {
+  margin-left: 8px;
+}
+
 .pf-type-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -337,7 +346,6 @@ img {
   letter-spacing: 0.03em;
   color: #212121;
 
-  margin-left: 8px;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 20px;
@@ -346,7 +354,7 @@ img {
 
 .pf-item-link:focus,
 .pf-item-link:hover {
-  accent-color: none;
+  accent-color: var(--accent-color);
 }
 
 .pf-list {
@@ -359,10 +367,6 @@ img {
   flex-basis: calc(100% / 3 - var(--typical-gap));
   margin-left: var(--typical-gap);
   margin-bottom: var(--typical-gap);
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
 }
 
 .pf-list-description {
@@ -370,6 +374,10 @@ img {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 
 .pf-item-title {
@@ -377,6 +385,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--first-title-color);
+  margin-bottom: 4px;
 }
 
 .pf-item-type {
