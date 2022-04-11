@@ -163,6 +163,11 @@ img {
   letter-spacing: 0.06em;
   color: var(--second-title-color);
   background-color: #2196f3;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 /*-- Section 2 - Benefits -- */
@@ -177,6 +182,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--first-title-color);
+  margin-bottom: 10px;
 }
 
 .benefits-list {
@@ -305,6 +311,10 @@ img {
   letter-spacing: 0.03em;
 }
 
+.footer-list-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .footer-list-address {
   color: #ffffff;
 }
@@ -361,6 +371,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--typical-gap));
+  margin-bottom: calc(-1 * var(--typical-gap));
 }
 
 .pf-item-list {
